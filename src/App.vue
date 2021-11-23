@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Titolo/>
-    <StiCazzi/>
   
 
 
@@ -10,13 +9,11 @@
 
 <script>
 import Titolo from './components/Titolo.vue'
-import StiCazzi from './components/StiCazzi.vue'
 
 export default {
   name: 'App',
   components: {
     Titolo,
-    StiCazzi
 
 
   }
